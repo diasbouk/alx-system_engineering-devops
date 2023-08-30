@@ -1,2 +1,2 @@
 #!/bin/bash
-cp --parents find -name \*.mp3* /root
+cp -u *.html ../
