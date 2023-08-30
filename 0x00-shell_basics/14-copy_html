@@ -1,2 +1,2 @@
 #!/bin/bash
-cp --parents find -name \*.html*` ..
+cp --parents find -name \*.html* ..
