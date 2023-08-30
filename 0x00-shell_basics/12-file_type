@@ -1,2 +1,2 @@
 #!/bin/bash
-file -f /tmp/iamafile.lst
+file -f /tmp/iamafile
