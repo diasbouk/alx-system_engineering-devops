@@ -1,2 +1,2 @@
 #!/bin/bash
-sed -n '3p' iacta
+sed "5!d" iacta
