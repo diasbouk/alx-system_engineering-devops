@@ -1,2 +1,2 @@
 #!/bin/bash
-grep "A c Z e" -r
+tr Ac Ze
