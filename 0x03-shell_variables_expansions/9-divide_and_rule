@@ -1,2 +1,2 @@
 #!/bin/bash
-ech -e $(($POWER/$DEVIDE))
+echo -e $(($POWER/$DIVIDE))
