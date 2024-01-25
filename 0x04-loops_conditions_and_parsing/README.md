@@ -1,4 +1,4 @@
-0x04. Loops, conditions and parsing
+# 0x04. Loops, conditions and parsing
     DevOpsShellBashScripting
 
         By: Sylvain Kalache
@@ -7,7 +7,7 @@
         Checker was released at Jan 25, 2024 10:00 AM
         An auto review will be launched at the deadline
 
-About Bash projects
+# About Bash projects
 
     Unless stated, all your projects will be auto-corrected with Ubuntu 20.04 LTS.
 
@@ -23,7 +23,7 @@ About Bash projects
         File test operators
         Make your scripts portable
 
-man or help:
+# man or help:
 
     env
     cut
@@ -32,7 +32,7 @@ man or help:
     until
     if
 
-Learning Objectives
+# Learning Objectives
 
     At the end of this project, you are expected to be able to explain to anyone, without the help of Google:
     General
@@ -44,7 +44,7 @@ Learning Objectives
         How to use the cut command
         What are files and other comparison operators, and how to use them
 
-Requirements
+# Requirements
     General
 
         Allowed editors: vi, vim, emacs
@@ -57,14 +57,14 @@ Requirements
         The first line of all your Bash scripts should be exactly #!/usr/bin/env bash
         The second line of all your Bash scripts should be a comment explaining what is the script doing
 
-Copyright - Plagiarism
+# Copyright - Plagiarism
 
         You are tasked to come up with solutions for the tasks below yourself to meet with the above learning objectives.
         You will not be able to meet the objectives of this or any following project by copying and pasting someone else’s work.
         You are not allowed to publish any content of this project.
         Any form of plagiarism is strictly forbidden and will result in removal from the program.
 
-More Info
+# More Info
     Shellcheck
         <img src="https://s3.amazonaws.com/intranet-projects-files/holbertonschool-sysadmin_devops/251/Vxotqyj.png">
         <img src="https://s3.amazonaws.com/intranet-projects-files/holbertonschool-sysadmin_devops/251/ubHWxDU.png">
