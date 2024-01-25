@@ -1,0 +1,16 @@
+#!/usr/bin/env bash
+# Luck !?
+
+count=1
+while [[ count -le 20 ]]; do
+	case "$count" in
+		4 ) echo "bad luck from China"
+			;;
+		9) echo "bad luck from Japan"
+			;;
+		17) echo "bad luck fro Italy"
+			;;
+		*) echo "Best School"
+	esac
+	count=$(( count + 1 ))
+done
