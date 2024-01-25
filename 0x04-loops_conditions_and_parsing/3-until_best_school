@@ -1,0 +1,7 @@
+#!/usr/bin/env bash
+# Until loop
+counter=1
+until [[ $counter == 10 ]]; do
+	echo "Best School"
+	counter=$(( counter + 1 ))
+done
