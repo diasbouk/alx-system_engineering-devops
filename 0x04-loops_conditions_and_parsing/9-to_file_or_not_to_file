@@ -1,10 +1,10 @@
 #!/usr/bin/env bash
 # File info
 file="school"
-if [[ -z $file ]]; then
+if [[ ! -f $file ]]; then
 	echo "file school does not exist"
-fi
-if [[ -n $file ]]; then
+
+elif [[ -n $file ]]; then
 	echo "file school exists"
 	if [[ ! -s $file ]]; then
 		echo "school file is empty"
