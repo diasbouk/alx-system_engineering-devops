@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 # File info
 file="school"
-if [[ -f $file ]]; then
+if [[ -e $file ]]; then
 	echo "school file exists"
 	if [[ ! -s $file ]]; then
 		echo "school file is empty"
