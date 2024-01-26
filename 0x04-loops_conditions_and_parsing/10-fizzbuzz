@@ -1,0 +1,14 @@
+#!/usr/bin/env bash
+# FizzBuzz game
+for (( idx = 1; idx <= 100; idx++))
+do
+	if [[ $(( idx % 3)) == 0 && $(( idx % 5 ))  == 0 ]]; then
+		echo "FizzBuzz"
+	elif [[ $(( idx % 3 )) == 0 ]]; then
+		echo "Fizz"
+	elif [[ $(( idx % 5 )) == 0 ]]; then
+		echo "Buzz"
+	else
+		echo "$idx"
+	fi
+done
