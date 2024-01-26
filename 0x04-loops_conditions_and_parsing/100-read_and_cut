@@ -1,0 +1,10 @@
+#!/usr/bin/env bash
+# User => Id => Dict
+while IFS= read -r line
+do
+	f_id=${line#*:*:}
+	user_id=${f_id%%:*}
+	user_name=${line%%:*}
+	user_dict="/${line##*:/}"
+	echo "$user_name:$user_id:$user_dict"
+done < "/etc/passwd"
