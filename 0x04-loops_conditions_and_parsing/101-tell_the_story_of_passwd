@@ -10,5 +10,7 @@ do
 	user_home="/${f_home%%:*}"
 	pass_f_code=${line#*:}
 	pass_code=${pass_f_code%%:*}
-	echo "The user $user_name is part of the $user_id gang, lives in $user_home and rides $user_dict. $user_id's place is protected by the passcode $pass_code, more info about the user here: $user_name"
+	f_info=${line%%:/*}
+	user_info=${f_info##*:}
+	echo "The user $user_name is part of the $user_id gang, lives in $user_home and rides $user_dict. $user_id's place is protected by the passcode $pass_code, more info about the user here: $user_info"
 done < "/etc/passwd"
