@@ -2,10 +2,10 @@
 # File info
 file="school"
 if [[ ! -f $file ]]; then
-	echo "file school does not exist"
+	echo "school file does not exist"
 
 elif [[ -n $file ]]; then
-	echo "file school exists"
+	echo "school file exists"
 	if [[ ! -s $file ]]; then
 		echo "school file is empty"
 	else
