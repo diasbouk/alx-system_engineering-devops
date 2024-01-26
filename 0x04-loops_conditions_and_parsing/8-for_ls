@@ -2,5 +2,6 @@
 # files in a list
 for element in "$PWD"/*
 do
-	echo "${element##*-}"
+	new=${element##/*/}
+	echo "${new#*-}"
 done
