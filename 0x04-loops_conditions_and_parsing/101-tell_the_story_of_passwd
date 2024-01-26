@@ -1,0 +1,14 @@
+#!/usr/bin/env bash
+# User => Id => Dict
+while IFS= read -r line
+do
+	f_id=${line#*:*:}
+	user_id=${f_id%%:*}
+	user_name=${line%%:*}
+	user_dict="/${line##*:/}"
+	f_home=${line##/*}
+	user_home="/${f_home%%:*}"
+	pass_f_code=${line#*:}
+	pass_code=${pass_f_code%%:*}
+	echo "The user $user_name is part of the $user_id gang, lives in $user_home and rides $user_dict. $user_id's place is protected by the passcode $pass_code, more info about the user here: $user_name"
+done < "/etc/passwd"
