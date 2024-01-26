@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 # File info
 file="school"
-if [[ ! -f $file ]]; then
+if [[ -z $file ]]; then
 	echo "school file does not exist"
 
 elif [[ -n $file ]]; then
