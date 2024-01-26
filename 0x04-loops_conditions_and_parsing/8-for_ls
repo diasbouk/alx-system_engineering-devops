@@ -1,0 +1,7 @@
+#!/usr/bin/env bash
+# files in a list
+shopt -s nullglob
+for element in "$PWD"/*
+do
+	echo "${element##*-}"
+done
