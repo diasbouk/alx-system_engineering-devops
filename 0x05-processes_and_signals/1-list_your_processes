@@ -1,3 +1,3 @@
 #!/usr/bin/env bash
 # ALL PIDS
-ps -u
+ps -u | sort -n
