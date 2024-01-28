@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
- # TheBigOne
+# TheBigOne
  
  if [[ -z $1 ]] || [[ -n $2 ]]; then
  	echo "Usage: manage_my_process {start|stop|restart}"
