@@ -1,0 +1,16 @@
+#!/usr/bin/env bash
+# Kill
+
+remove ()
+{
+	rm /var/run/myscript.pid
+	exit
+}
+
+trap "echo I hate the kill command;remove" SIGTERM
+trap "echo Y U no love me?!;remove" SIGINT
+
+echo $$ >> /var/run/holbertonscript.pid
+while true; do
+    echo To infinity and beyond;
+done
