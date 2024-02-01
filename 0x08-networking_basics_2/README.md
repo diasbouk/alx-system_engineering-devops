@@ -7,7 +7,7 @@ DevOpsNetworkSysAdmin
     Checker will be released at Feb 2, 2024 4:00 AM
     An auto review will be launched at the deadline
 
-    <img src="https://s3.amazonaws.com/intranet-projects-files/holbertonschool-sysadmin_devops/285/s7kpNYq.png">
+<img src="https://s3.amazonaws.com/intranet-projects-files/holbertonschool-sysadmin_devops/285/s7kpNYq.png">
 
 Resources
 
